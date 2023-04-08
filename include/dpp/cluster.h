@@ -21,10 +21,15 @@
 
 #pragma once
 
-#include <dpp/export.h>
-#include <string>
+#include <algorithm>
+#include <cstring>
+#include <iostream>
 #include <map>
+#include <shared_mutex>
+#include <string>
 #include <variant>
+
+#include <dpp/export.h>
 #include <dpp/snowflake.h>
 #include <dpp/dispatcher.h>
 #include <dpp/misc-enum.h>
@@ -41,15 +46,9 @@
 #include <dpp/intents.h>
 #include <dpp/discordevents.h> 
 #include <dpp/sync.h>
-#include <algorithm>
-#include <iostream>
-#include <shared_mutex>
-#include <cstring>
 #include <dpp/restresults.h>
 #include <dpp/coro.h>
 #include <dpp/event_router.h>
-
-
 
 namespace dpp {
 

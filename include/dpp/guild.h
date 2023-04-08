@@ -19,6 +19,10 @@
  *
  ************************************************************************************/
 #pragma once
+
+#include <string>
+#include <unordered_map>
+
 #include <dpp/export.h>
 #include <dpp/user.h>
 #include <dpp/snowflake.h>
@@ -26,8 +30,6 @@
 #include <dpp/utility.h>
 #include <dpp/voicestate.h>
 #include <dpp/permissions.h>
-#include <string>
-#include <unordered_map>
 #include <dpp/json_interface.h>
 
 namespace dpp {

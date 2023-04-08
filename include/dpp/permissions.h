@@ -19,10 +19,12 @@
  *
  ************************************************************************************/
 #pragma once
-#include <dpp/export.h>
-#include <dpp/json.h>
+
 #include <cstdint>
 #include <type_traits>
+
+#include <dpp/export.h>
+#include <dpp/json.h>
 
 namespace dpp {
 

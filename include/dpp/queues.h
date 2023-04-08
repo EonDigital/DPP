@@ -19,16 +19,18 @@
  *
  ************************************************************************************/
 #pragma once
-#include <dpp/export.h>
-#include <unordered_map>
-#include <string>
-#include <queue>
-#include <map>
-#include <thread>
-#include <shared_mutex>
-#include <vector>
-#include <functional>
+
 #include <condition_variable>
+#include <functional>
+#include <map>
+#include <queue>
+#include <shared_mutex>
+#include <string>
+#include <thread>
+#include <unordered_map>
+#include <vector>
+
+#include <dpp/export.h>
 
 namespace dpp {
 

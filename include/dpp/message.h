@@ -19,15 +19,16 @@
  *
  ************************************************************************************/
 #pragma once
+
+#include <optional>
+#include <variant>
+
 #include <dpp/export.h>
 #include <dpp/queues.h>
 #include <dpp/snowflake.h>
 #include <dpp/managed.h>
 #include <dpp/user.h>
 #include <dpp/guild.h>
-#include <optional>
-#include <variant>
-#include <dpp/json_fwd.h>
 #include <dpp/json_interface.h>
 
 namespace dpp {

@@ -19,14 +19,16 @@
  *
  ************************************************************************************/
 #pragma once
+
+#include <functional>
+#include <map>
+#include <string>
+#include <unordered_map>
+#include <vector>
+
 #include <dpp/export.h>
 #include <dpp/snowflake.h>
 #include <dpp/misc-enum.h>
-#include <string>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <functional>
 
 #ifndef MAX_CND_IMAGE_SIZE
 	#define MAX_CDN_IMAGE_SIZE 4096

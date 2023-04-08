@@ -19,12 +19,14 @@
  *
  ************************************************************************************/
 #pragma once
-#include <dpp/export.h>
-#include <string>
-#include <map>
+
 #include <list>
+#include <map>
+#include <string>
 #include <vector>
 #include <variant>
+
+#include <dpp/export.h>
 #include <dpp/sslclient.h>
 
 namespace dpp {

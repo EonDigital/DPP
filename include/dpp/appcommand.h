@@ -19,6 +19,10 @@
  *
  ************************************************************************************/
 #pragma once
+
+#include <variant>
+#include <map>
+
 #include <dpp/export.h>
 #include <dpp/snowflake.h>
 #include <dpp/managed.h>
@@ -26,9 +30,6 @@
 #include <dpp/channel.h>
 #include <dpp/role.h>
 #include <dpp/user.h>
-#include <variant>
-#include <map>
-#include <dpp/json_fwd.h>
 #include <dpp/json_interface.h>
 
 namespace dpp {

@@ -20,21 +20,21 @@
  ************************************************************************************/
 
 #pragma once
-#include <dpp/export.h>
-#include <string>
+
+#include <deque>
 #include <map>
+#include <mutex>
+#include <queue>
+#include <shared_mutex>
+#include <string>
+#include <thread>
 #include <vector>
+
+#include <dpp/export.h>
 #include <dpp/json_fwd.h>
 #include <dpp/wsclient.h>
 #include <dpp/dispatcher.h>
 #include <dpp/event.h>
-#include <queue>
-#include <thread>
-#include <deque>
-#include <mutex>
-#include <shared_mutex>
-
-
 
 #define DISCORD_API_VERSION	"10"
 #define API_PATH	        "/api/v" DISCORD_API_VERSION

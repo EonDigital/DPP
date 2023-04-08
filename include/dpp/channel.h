@@ -20,17 +20,18 @@
  ************************************************************************************/
 
 #pragma once
+
+#include <unordered_map>
+#include <variant>
+
 #include <dpp/export.h>
 #include <dpp/snowflake.h>
 #include <dpp/managed.h>
 #include <dpp/utility.h>
 #include <dpp/voicestate.h>
 #include <dpp/message.h>
-#include <dpp/json_fwd.h>
 #include <dpp/permissions.h>
 #include <dpp/json_interface.h>
-#include <unordered_map>
-#include <variant>
 
 namespace dpp {
 

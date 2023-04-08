@@ -20,12 +20,14 @@
  ************************************************************************************/
 
 #pragma once
+
+#include <mutex>
+#include <shared_mutex>
+#include <unordered_map>
+
 #include <dpp/export.h>
 #include <dpp/snowflake.h>
 #include <dpp/managed.h>
-#include <unordered_map>
-#include <mutex>
-#include <shared_mutex>
 
 namespace dpp {
 

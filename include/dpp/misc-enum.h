@@ -19,7 +19,7 @@
  *
  ************************************************************************************/
 #pragma once
-#include <dpp/export.h>
+
 #include <stddef.h>
 
 namespace dpp {

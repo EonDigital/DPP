@@ -19,6 +19,13 @@
  *
  ************************************************************************************/
 #pragma once
+
+#include <algorithm>
+#include <exception>
+#include <functional>
+#include <string>
+#include <variant>
+
 #include <dpp/export.h>
 #include <dpp/snowflake.h>
 #include <dpp/misc-enum.h>
@@ -40,11 +47,6 @@
 #include <dpp/scheduled_event.h>
 #include <dpp/stage_instance.h>
 #include <dpp/integration.h>
-#include <functional>
-#include <variant>
-#include <exception>
-#include <algorithm>
-#include <string>
 
 namespace dpp {
 

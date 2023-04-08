@@ -19,8 +19,10 @@
  *
  ************************************************************************************/
 #pragma once
-#include <dpp/export.h>
+
 #include <utility>
+
+#include <dpp/export.h>
 
 namespace dpp {
 

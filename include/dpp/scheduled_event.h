@@ -24,7 +24,6 @@
 #include <dpp/managed.h>
 #include <dpp/user.h>
 #include <dpp/guild.h>
-#include <dpp/json_fwd.h>
 #include <dpp/json_interface.h>
 
 namespace dpp {

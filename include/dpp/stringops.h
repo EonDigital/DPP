@@ -23,12 +23,12 @@
  ************************************************************************************/
 
 #pragma once
-#include <string>
+
+#include <algorithm>
 #include <iomanip>
 #include <locale>
-#include <algorithm>
+#include <string>
 #include <sstream>
-#include <iostream>
 
 namespace dpp {
 /**

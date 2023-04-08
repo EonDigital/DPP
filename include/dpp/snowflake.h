@@ -19,10 +19,12 @@
  *
  ************************************************************************************/
 #pragma once
+
+#include <functional>
+#include <stdint.h>
+
 #include <dpp/export.h>
 #include <dpp/json_fwd.h>
-#include <stdint.h>
-#include <functional>
 
 /**
  * @brief The main namespace for D++ functions. classes and types

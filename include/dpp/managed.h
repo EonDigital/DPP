@@ -19,9 +19,11 @@
  *
  ************************************************************************************/
 #pragma once
+
+#include <string>
+
 #include <dpp/export.h>
 #include <dpp/snowflake.h>
-#include <string>
 
 namespace dpp {
 

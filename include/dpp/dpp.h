@@ -19,18 +19,17 @@
  *
  ************************************************************************************/
 #pragma once
+#include <ctime>
+#include <fstream>
+#include <functional>
+#include <iostream>
+#include <map>
+#include <string>
+#include <vector>
+
 #include <dpp/export.h>
 #include <dpp/version.h>
-#include <string>
-#include <map>
-#include <vector>
-#include <fstream>
-#include <iostream>
-#include <ctime>
-#include <string>
-#include <vector>
-#include <map>
-#include <functional>
+
 #include <dpp/exception.h>
 #include <dpp/snowflake.h>
 #include <dpp/misc-enum.h>

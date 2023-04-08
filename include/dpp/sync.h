@@ -19,10 +19,12 @@
  *
  ************************************************************************************/
 #pragma once
-#include <dpp/export.h>
-#include <dpp/snowflake.h>
+
 #include <future>
 #include <utility>
+
+#include <dpp/export.h>
+#include <dpp/snowflake.h>
 #include <dpp/exception.h>
 
 namespace dpp {

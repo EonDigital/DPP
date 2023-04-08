@@ -19,9 +19,10 @@
  *
  ************************************************************************************/
 #pragma once
-#include <dpp/export.h>
+
 #include <unordered_map>
-#include <dpp/json_fwd.h>
+
+#include <dpp/export.h>
 #include <dpp/json_interface.h>
 
 namespace dpp {

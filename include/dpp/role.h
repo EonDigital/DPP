@@ -19,10 +19,11 @@
  *
  ************************************************************************************/
 #pragma once
+
 #include <variant>
+
 #include <dpp/export.h>
 #include <dpp/managed.h>
-#include <dpp/json_fwd.h>
 #include <dpp/permissions.h>
 #include <dpp/guild.h>
 #include <dpp/json_interface.h>

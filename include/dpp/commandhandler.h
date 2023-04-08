@@ -20,6 +20,12 @@
  ************************************************************************************/
 
 #pragma once
+
+#include <functional>
+#include <unordered_map>
+#include <variant>
+#include <vector>
+
 #include <dpp/export.h>
 #include <dpp/snowflake.h>
 #include <dpp/misc-enum.h>
@@ -31,10 +37,6 @@
 #include <dpp/utility.h>
 #include <dpp/json_fwd.h>
 #include <dpp/event_router.h>
-#include <unordered_map>
-#include <vector>
-#include <functional>
-#include <variant>
 
 namespace dpp {
 
